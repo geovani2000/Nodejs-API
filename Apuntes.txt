@@ -1,0 +1,31 @@
+Para empezar ejecutamos en terminar
+npm init -y, para crear un package que nos sirve para instalar modulo
+
+npm i express, creamos un modulo que nos ayudara crear nuestro proyecto.
+
+Creamos un servidor en index.js con express
+
+npm i nodemon -D, nos ayuda a resetear nuestro servidor lo descarga como dependencia de desarrollo.
+Creamos en package dev: nodemon index.js con npm run dev ejecutamos.
+
+Creamos unas rutas para nuestra appi que son:
+Get: para obtener todos los datos
+Pos: Crear dato
+Put: Actualizar dat
+Delete: Eliminar dato
+
+Utilizaremos un modulo de mysql2 para poder conectarnos a nuestra BD.
+npm i mysql2
+importamos la funcion de createpool para crear un conjunto de conexion.
+
+Creamos una carpta de rutas para poner todas las rutas que definimos, importamos routes.
+
+creamos un carpeta de controlador para funciones de las rutas ya que mientras sea mas grande el proyecto sera
+mas dificil de leer e igual es mas utilizable para las funciones.
+
+
+hacemos la consulta desde la base de datos
+req.body-> requerir un dato insertado
+res-> devolver un datos.
+podemos devolver todos los datos de la consulta en db
+con req.json();

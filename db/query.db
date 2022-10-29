@@ -1,0 +1,17 @@
+iF NOT EXISTS -> Para ver si la base de datos no existe
+CREATE DATABASE IF NOT EXISTS Zapateria;
+
+USE Zapato;
+
+CREATE TABLE Zapatos (
+    id int(11) NOT NULL AUTO_INCREMENT,
+    nombre varchar(30) DEFAULT NULL,
+    precio int(8) DEFAULT NULL,
+    color varchar(35) DEFAULT NULL,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO zapatos VALUES
+   (1, 'Zapato de caballero',1500,'negro'),
+   (2, 'Zapato de dama',1800,'negro'),
+   (3, 'Zapato de niño',100,'cafe');
