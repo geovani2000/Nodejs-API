@@ -2,6 +2,7 @@ import { config } from 'dotenv';
 
 config()
 
+export const PUERT = process.env.DB_PUERT || 3000;
 export const HOST = process.env.DB_HOST || 'localhost';
 export const USER = process.env.DB_USER || 'root';
 export const PASS = process.env.DB_PASS || 'geova2000';
