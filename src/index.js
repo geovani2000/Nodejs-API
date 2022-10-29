@@ -7,6 +7,6 @@ app.use(express.json())
 
 app.use(indexRuta)
 app.use('/api',zapateraRuta)
-app.listen(PUERT);
+app.listen();
 
 console.log("listo nuestro servidor");
