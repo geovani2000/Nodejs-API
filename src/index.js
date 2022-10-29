@@ -5,6 +5,7 @@ import { PUERT} from './config.js';
 const app = express();
 app.use(express.json())
 
+
 app.use(indexRuta)
 app.use('/api',zapateraRuta)
 app.listen(PUERT);
