@@ -10,4 +10,4 @@ app.use(indexRuta)
 app.use('/api',zapateraRuta)
 app.listen(PORT);
 
-console.log("listo nuestro servidor");
+console.log("listo nuestro servidor",PORT);
