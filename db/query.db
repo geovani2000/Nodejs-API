@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS Zapateria;
 
 USE Zapato;
 
-CREATE TABLE Zapatos (
+CREATE TABLE zapatos (
     id int(11) NOT NULL AUTO_INCREMENT,
     nombre varchar(30) DEFAULT NULL,
     precio int(8) DEFAULT NULL,
